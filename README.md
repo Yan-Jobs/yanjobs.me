@@ -31,8 +31,8 @@
   <samp>
    <details align="center">
   <summary><b>My stats</b></summary>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yan-jobs&layout=compact&theme=radical" align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=yan-jobs&count_private=true&show_icons=true&theme=onedark" align="right">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yan-jobs&layout=compact&theme=radical">
+  <img src="https://github-readme-stats.vercel.app/api?username=yan-jobs&count_private=true&show_icons=true&theme=onedark">
 </details>
   </samp>
   </body>
