@@ -1,26 +1,30 @@
 /* On travaille sur la balise body, donc sur TOUTE la page */
 body
 {
-    background-color: black; /* Le fond de la page sera noir */
+    background-color: #3a3a3a; /* Le fond de la page sera noir */
     color: white; /* Le texte de la page sera blanc */
-    font-family: Arial;
 }
 
-h1 + img
+p {
+    margin-bottom: 2em; /* on ajoute un espace après chaque paragraphe */
+}
+
+img
 {
     border: 3px red inset;
     border-radius: 30px;
 }
-
-h1 + img:hover
+img:hover
 {
-    box-shadow: 6px 6px 6px blue;
+    box-shadow: 2px 2px 2px blue;
     border: 3px blue inset;
+    cursor: default;
 }
 
 *{
     margin:0;
     padding:0;
+    outline: none;
 }
  
 body, html{height:100%;}
@@ -40,4 +44,8 @@ footer{
     width:100%;
     padding-top:50px;
     height:50px;
+}
+
+details:hover{
+    cursor: pointer;
 }
