@@ -1,51 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
 
-body
-{
-    background-color: white;
-    color: black;
-    font-family: Lexend ,sans-serif;
-    font-size: 18px;
-    text-align: center;
+body {
+  background-color: white;
+  color: black;
+  font-family: Lexend, sans-serif;
+  font-size: 18px;
+  text-align: center;
 }
 
 p {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
-.imgStyled
-{
-    border: 3px red inset;
-    border-radius: 30px;
+.imgStyled {
+  border: 3px red inset;
+  border-radius: 30px;
 }
-.imgStyled:hover
-{
-    box-shadow: 2px 2px 2px blue;
-    border: 3px blue inset;
-    cursor: default;
+.imgStyled:hover {
+  box-shadow: 2px 2px 2px blue;
+  border: 3px blue inset;
+  cursor: default;
 }
 
 * {
-    outline: none;
-    overflow: scroll;
-}
- 
-body, html{height:100%;}
-
-
-
-details:hover{
-    cursor: pointer;
+  outline: none;
+  overflow: scroll;
 }
 
-a
-{
-    color: white;
+body, html {
+  height: 100%;
 }
 
-a:hover
-{
-    color: red;
+details:hover {
+  cursor: pointer;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
 
