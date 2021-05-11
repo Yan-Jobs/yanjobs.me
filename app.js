@@ -4,6 +4,7 @@ const logo = document.querySelector(".logo");
 const medias = document.querySelectorAll(".bulle");
 const l1 = document.querySelector(".l1");
 const l2 = document.querySelector(".l2");
+const btnDiscord = document.querySelector("#btnDiscord");
 
 window.addEventListener("load", () => {
   const TL = gsap.timeline({ paused: true });
@@ -22,3 +23,6 @@ window.addEventListener("load", () => {
 
   TL.play();
 });
+btnDiscord.on("click" () => {
+  alert("The Discord is not yet ready... Sorry.")
+})
