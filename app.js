@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
 
   TL.staggerFrom(
     titreSpans,
-    1,
+    0.4,
     { top: -50, opacity: 0, ease: "power2.out" },
     0.3
   )
