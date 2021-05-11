@@ -1,0 +1,16 @@
+{
+  "name": "yanjobs.me",
+  "version": "1.0.0",
+  "description": "My website",
+  "scripts": {
+    "clean": "prettier -w ."
+  },
+  "main": "index.js",
+  "repository": "https://github.com/yan-Jobs/yanjobs.me",
+  "author": "Yan-Jobs",
+  "license": "CC-BY-NC-ND-4.0",
+  "private": false,
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
