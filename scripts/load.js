@@ -23,6 +23,7 @@ window.addEventListener("load", () => {
 
   TL.play();
 });
+
 btnDiscord.addEventListener("click", () => {
   alert("The Discord is not yet ready... Sorry.")
 })
