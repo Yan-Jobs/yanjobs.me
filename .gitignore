@@ -1,1 +1,4 @@
 .prettierc.json
+.idea/
+node_modules/
+yarn.lock
