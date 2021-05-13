@@ -21,7 +21,13 @@ window.addEventListener("load", () => {
     .from(logo, 0.4, { transform: "scale(0)", ease: "power2.out" }, "-=2")
     .staggerFrom(medias, 1, { right: -200, ease: "power2.out" }, 0.3, "-=1");
 
-  TL.play();
+  TL.play().then(play => {
+    let opts = {
+      strings: ["is a Js dev...", "is dicord bot dev..."],
+      typeSpeed: 20
+    }
+    const typed = new Typed("#typedText", opts);
+  })
 });
 
 btnDiscord.addEventListener("click", () => {
